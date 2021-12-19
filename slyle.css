@@ -10,6 +10,7 @@ body{
     --blue: #0042EB;
     --purple: #960796;
     --green: #3AB19B;
+    --yellow: #F6C545;
 }
 .container{
     margin: 68px 170px;
@@ -32,7 +33,6 @@ h2{
     font-weight: 700;
     border-left: 2px solid var(--blue);
     padding: 8px 21px;
-
 }
 .console__wrap span{
     color: var(--blue);
@@ -69,3 +69,14 @@ li span:last-of-type{
     top: 0;
 }
 
+
+.change__wrap span{
+    color: var(--yellow);
+}
+.change__wrap p{
+    font-size: 16px;
+    font-weight: 700;
+    border-left: 2px solid var(--yellow);
+    padding: 8px 21px;
+
+}
